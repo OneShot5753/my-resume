@@ -32,6 +32,23 @@ a {
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
+strong {
+  font-family: '微软雅黑',sans-serif;
+  font-weight: 700;
+  color: #222831;
+}
+mark {
+  font-family: @font-family;
+  font-size: 12px;
+  line-height: 14px;
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  font-weight: 500;
+  color: #444;
+  margin: 2px;
+  padding: 0 3px;
+  background-color: #f6f6f6;
+}
 .last-modified {
     position: absolute;
     top: 30px;
@@ -201,7 +218,7 @@ a {
     }
 
     section {
-        padding: 10px 15px;
+        padding: 10px 20px;
         overflow: hidden;
     }
     .section-hd {
@@ -244,6 +261,9 @@ a {
     .section-list {
         padding: 10px 0 5px;
     }
+    .item {
+      margin-bottom: 10px;
+    }
     .item-hd {
         position: relative;
         padding: 10px 0 5px;
@@ -276,12 +296,21 @@ a {
             float: left;
             display: inline-block;
         }
+        span {
+          float: left;
+        }
     }
     .item-bd {
         margin-bottom: 5px;
+        ul {
+            padding: 5px 0px;
+        }
+        li {
+          height: 28px;
+        }
     }
     .section-content {
-        line-height: 22px;
+        line-height: 24px;
         text-align: justify;
         word-break: break-all;
         .iconfont {
@@ -298,23 +327,8 @@ a {
             padding: 0 3px;
             background-color: #f7f7f7;
         }
-        mark {
-            font-family: @font-family;
-            font-size: 12px;
-            line-height: 14px;
-            border: 1px solid #f3f3f3;
-            border-radius: 3px;
-            font-weight: 500;
-            color: #444;
-            margin: 2px;
-            padding: 0 3px;
-            background-color: #f6f6f6;
-        }
-        strong {
-          font-family: '微软雅黑',sans-serif;
-          font-weight: 700;
-          color: #222831;
-        }
+
+
     }
     .skill {
         .section-content {
@@ -327,23 +341,26 @@ a {
         }
     }
     .practice {
-        .item-time {
-            width: 32%;
+        .item-time,
+        .item-name {
+            width: 25%;
             @media screen and (max-width: 720px) {
                 width: 100%;
             }
         }
     }
-    .prize {
+    .project {
         .item-hd {
-            padding: 12px 0 0;
+            padding: 12px 0 5px;
         }
-        .item-time {
-            width: 15%;
+        .item-time,
+        .item-name {
+            width: 25%;
             @media screen and (max-width: 720px) {
                 width: 100%;
             }
         }
+
     }
 }
 .btn {

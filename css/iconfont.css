@@ -17,7 +17,15 @@
 .icon-triangle:before { content: '\e6b7'; }
 .icon-arrow:before {
     content: '\e73d';
-    color: #6b48ff;
+    color: #222831;
+}
+.icon-plus:before { content: '\e6da'}
+.icon-lineArrow:before {
+    content: '\e60d';
+    font-size: 12px;
+    line-height: 14px;
+    display: inline-block;
+    padding-right: 5px;
 }
 .icon-homepage:before { content: '\e619'; }
 .icon-github:before { content: '\e709'; }
