@@ -13,6 +13,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     position: relative;
     -webkit-font-smoothing: antialiased;
@@ -299,6 +300,9 @@ mark {
         }
         span {
           float: left;
+          @media screen and (max-width: 720px) {
+            display: inline-block;
+          }
         }
     }
     .item-bd {
@@ -307,11 +311,11 @@ mark {
             padding: 5px 0px;
         }
         li {
-          height: 28px;
+          line-height: 28px;
         }
-        .last-li {
-          height: 56px;
-        }
+        //.last-li {
+        //  height: 56px;
+        //}
     }
     .section-content {
         line-height: 24px;
