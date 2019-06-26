@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a955b19f-419f-47c3-a4ad-8b37b53e400b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,27 +62,27 @@
     <session id="2003888401">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="492" />
-          <entry key="less" value="248" />
+          <entry key="html" value="701" />
+          <entry key="less" value="260" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="492" />
-          <entry key="Less" value="248" />
+          <entry key="HTML" value="701" />
+          <entry key="Less" value="260" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
@@ -98,20 +100,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="88" column="24" lean-forward="true" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+            <state relative-caret-position="226">
+              <caret line="105" column="84" selection-start-line="105" selection-start-column="84" selection-end-line="105" selection-end-column="84" />
+              <folding>
+                <element signature="e#7519#7525#0" expanded="true" />
+                <element signature="e#7527#7533#0" expanded="true" />
+                <element signature="e#8847#8853#0" expanded="true" />
+                <element signature="e#8853#8859#0" expanded="true" />
+                <element signature="e#8859#8865#0" expanded="true" />
+                <element signature="e#8912#8918#0" expanded="true" />
+                <element signature="e#8918#8924#0" expanded="true" />
+                <element signature="e#8924#8930#0" expanded="true" />
+                <element signature="e#7935#7941#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5380">
-              <caret line="304" selection-start-line="304" selection-end-line="304" />
+            <state relative-caret-position="-86">
+              <caret line="320" column="26" lean-forward="true" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -157,6 +170,8 @@
       <find>自媒体</find>
       <find>media</find>
       <find>item-bd</find>
+      <find>practice</find>
+      <find>item-more</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,7 +276,8 @@
       <workItem from="1560687222935" duration="3098000" />
       <workItem from="1560739004985" duration="1737000" />
       <workItem from="1560852368190" duration="1909000" />
-      <workItem from="1560867117871" duration="2231000" />
+      <workItem from="1560867117871" duration="2243000" />
+      <workItem from="1561535843353" duration="5398000" />
     </task>
     <task id="LOCAL-00001" summary="Update some content , good night!">
       <created>1560360825265</created>
@@ -368,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560867185757</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="daily update">
+      <created>1560876209481</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560876209481</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57900000" />
+    <option name="totallyTimeSpent" value="63310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -422,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="88" column="24" lean-forward="true" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -438,8 +454,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5380">
-          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        <state relative-caret-position="-86">
+          <caret line="320" column="26" lean-forward="true" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="105" column="84" selection-start-line="105" selection-start-column="84" selection-end-line="105" selection-end-column="84" />
+          <folding>
+            <element signature="e#7519#7525#0" expanded="true" />
+            <element signature="e#7527#7533#0" expanded="true" />
+            <element signature="e#8847#8853#0" expanded="true" />
+            <element signature="e#8853#8859#0" expanded="true" />
+            <element signature="e#8859#8865#0" expanded="true" />
+            <element signature="e#8912#8918#0" expanded="true" />
+            <element signature="e#8918#8924#0" expanded="true" />
+            <element signature="e#8924#8930#0" expanded="true" />
+            <element signature="e#7935#7941#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
