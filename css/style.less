@@ -404,7 +404,8 @@ mark {
     }
 }
 
-.pdf {
+.pdf,
+.my-home-page {
     display: inline-block;
     position: fixed;
     z-index: 10;
@@ -422,7 +423,16 @@ mark {
         right: 8px;
         margin-left: 0;
     }
+    transition: background-color 0.3s;
 }
+.my-home-page {
+    bottom: 36px;
+}
+.pdf:hover,
+.my-home-page:hover {
+  background-color: deeppink;
+}
+
 .net-resume {
 
   position: absolute;
